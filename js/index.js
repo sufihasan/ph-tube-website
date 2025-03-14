@@ -77,7 +77,7 @@ const displayVideoDetails = (videoDetails) => {
       alt="Shoes" />
   </figure>
   <div class="card-body">
-    <h2 class="card-title">Card Title</h2>
+    <h2 class="card-title">${videoDetails.title}</h2>
     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
     <div class="card-actions justify-end">
       
@@ -177,3 +177,4 @@ document.getElementById('serch-input').addEventListener('keyup', (e) => {
 
 loadCategories();
 loadVideos();
+
